@@ -10,7 +10,7 @@ function validarLogin(){
     let passAttempt = document.getElementById('pass').value;
 console.log(userAttempt)
 if(userAttempt === localStorage.getItem('user') && passAttempt === localStorage.getItem('pass')){
-    window.location.href = 'index.html';
+    window.location.href = 'cartas.html';
     limpiarInput();
 } else {
     alert('Usuario incorrecto, vuelva a intentar o desista.')
